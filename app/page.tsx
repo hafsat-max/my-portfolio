@@ -46,7 +46,7 @@ export default function Home() {
                 Front-End React Developer 👋
               </h1>
               <h4 className="text-tunes-subheading font-medium text-primary leading-[1.6]">
-                Hi, I'm Babatunde Adekunle. A passionate Front-end React
+                Hi, I&apos;m Babatunde Adekunle. A passionate Front-end React
                 Developer based in Lagos, Nigeria. 📍
               </h4>
               <div className="flex items-center gap-[1.3rem]">
@@ -71,7 +71,9 @@ export default function Home() {
             {/* <ul className="flex items-center gap-[3rem] flex-wrap"> */}
             {techStack.map((item, idx) => (
               <span key={idx}>
-                <img
+                <Image
+                  width={90}
+                  height={50}
                   className="h-[5rem] cursor-pointer hover:translate-y-[-1rem] w-[9rem] duration-[0.3s] ease-in-out transition-all"
                   src={item}
                   alt="skill-icon"
@@ -121,7 +123,7 @@ export default function Home() {
                 code and leveraging cutting-edge development tools, I bring to
                 life web applications that are both functionally robust and
                 aesthetically pleasing. Moreover, my experience extends to
-                leadership, where I've successfully guided teams in achieving
+                leadership, where I&apos;ve successfully guided teams in achieving
                 excellence in collaborative endeavors.
               </p>
             </div>
@@ -184,7 +186,7 @@ export default function Home() {
         <div className="app-container flex gap-[6rem] flex-col">
           <div className="flex flex-col gap-[1rem]">
             <h3 className="section-heading">CONTACT</h3>
-            <p className="section-subheading">Don't be shy! Hit me up! 👇</p>
+            <p className="section-subheading">Don&apos;t be shy! Hit me up! 👇</p>
           </div>
           <div className="flex items-center gap-[8rem] flex-wrap">
             <div className="flex items-center gap-[1.5rem]">
@@ -212,7 +214,7 @@ export default function Home() {
                   href="mailto:babatundeadebowale1998@gmail.com"
                   target="_blank"
                   className="text-tunes-paragraph hover:text-tunes-link text-primary"
-                  style={{wordBreak: "break-word"}}
+                  style={{ wordBreak: "break-word" }}
                 >
                   babatundeadebowale1998@gmail.com
                 </a>

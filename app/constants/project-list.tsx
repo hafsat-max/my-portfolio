@@ -186,7 +186,7 @@ export const projects = [
         </span>
 
         <span>
-          The app's intuitive interface allows for easy editing and deletion of
+          The app&apos;s intuitive interface allows for easy editing and deletion of
           each card, ensuring accurate and up-to- date details. Once created,
           the cards are skillfully designed as HTML elements, incorporating the
           staff information seamlessly.
@@ -195,7 +195,7 @@ export const projects = [
         <span>
           Each card comes with a front and back design, adding a touch of
           professionalism. The front design is the default view, displaying the
-          staff's essential information. When hovered over, the card gracefully
+          staff&apos;s essential information. When hovered over, the card gracefully
           flips to reveal the back design, showcasing additional details or
           logos. The fluid animation enhances the user experience, leaving a
           lasting impression.
@@ -204,7 +204,7 @@ export const projects = [
         <span>
           A unique feature of the app is the ability to download each card (made
           up of HTML elements) as an image, providing a convenient way to share
-          and print the cards. Whether it's ID cards for employees or sleek
+          and print the cards. Whether it&apos;s ID cards for employees or sleek
           business cards for networking.
         </span>
       </span>
