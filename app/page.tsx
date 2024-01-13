@@ -68,10 +68,11 @@ export default function Home() {
             <p className="font-semibold whitespace-nowrap pr-[2rem] text-tunes-heading border-r-2 border-r-tunes-border">
               Tech Stack
             </p>
-            {/* <ul className="flex items-center gap-[3rem] flex-wrap"> */}
             {techStack.map((item, idx) => (
               <span key={idx}>
-                <img
+                <Image
+                  width={90}
+                  height={50}
                   className="h-[5rem] cursor-pointer hover:translate-y-[-1rem] w-[9rem] duration-[0.3s] ease-in-out transition-all"
                   src={item}
                   alt="skill-icon"
@@ -79,7 +80,6 @@ export default function Home() {
                 />
               </span>
             ))}
-            {/* </ul> */}
           </div>
         </section>
       </section>
