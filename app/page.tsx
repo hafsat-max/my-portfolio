@@ -71,9 +71,7 @@ export default function Home() {
             {/* <ul className="flex items-center gap-[3rem] flex-wrap"> */}
             {techStack.map((item, idx) => (
               <span key={idx}>
-                <Image
-                  width={90}
-                  height={50}
+                <img
                   className="h-[5rem] cursor-pointer hover:translate-y-[-1rem] w-[9rem] duration-[0.3s] ease-in-out transition-all"
                   src={item}
                   alt="skill-icon"
@@ -123,8 +121,8 @@ export default function Home() {
                 code and leveraging cutting-edge development tools, I bring to
                 life web applications that are both functionally robust and
                 aesthetically pleasing. Moreover, my experience extends to
-                leadership, where I&apos;ve successfully guided teams in achieving
-                excellence in collaborative endeavors.
+                leadership, where I&apos;ve successfully guided teams in
+                achieving excellence in collaborative endeavors.
               </p>
             </div>
           </div>
@@ -186,7 +184,9 @@ export default function Home() {
         <div className="app-container flex gap-[6rem] flex-col">
           <div className="flex flex-col gap-[1rem]">
             <h3 className="section-heading">CONTACT</h3>
-            <p className="section-subheading">Don&apos;t be shy! Hit me up! 👇</p>
+            <p className="section-subheading">
+              Don&apos;t be shy! Hit me up! 👇
+            </p>
           </div>
           <div className="flex items-center gap-[8rem] flex-wrap">
             <div className="flex items-center gap-[1.5rem]">
