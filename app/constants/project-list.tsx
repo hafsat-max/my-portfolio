@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     image: "/cgs.png",
-    liveLink: "https://cgs.vercel.app",
+    liveLink: "https://cgs-admin.vercel.app",
     codeLink: "",
     name: "Commodity Grading System",
     technologies: [
@@ -93,7 +93,7 @@ export const projects = [
   },
   {
     image: "/audio-notes.png",
-    liveLink: "https://audionotes.com",
+    liveLink: "https://audionotes.net",
     codeLink: "",
     name: "Audionotes",
     technologies: [
