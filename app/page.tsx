@@ -21,7 +21,9 @@ export default function Home() {
     <main className="bg-white">
       <nav className="flex fixed z-10 w-full top-0 items-center shadow-sm px-10 py-[25px] bg-white text-primary justify-between">
         <h3 className="font-bold text-[20px] text-tunes-heading cursor-pointer">
-          <a href="#home">tunes.dev</a>
+          <a href="#home">
+            <Image src="/logo.svg" width={83} height={23} className="w-[96px] h-[23px]" alt="logo" />
+          </a>
         </h3>
         <ul className="flex max-[520px]:hidden items-center gap-[2rem]">
           {navItems.map((item, idx) => (
