@@ -7,12 +7,13 @@ import { Mulish } from "next/font/google";
 import Technology from "./components/technology";
 import ProjectLink from "./components/project-link";
 import { TbMapSearch } from "react-icons/tb";
-import { MdOutlineEmail } from "react-icons/md";
+import { MdInfoOutline, MdOutlineEmail } from "react-icons/md";
 import { projects } from "./constants/project-list";
 import { techStack } from "./constants/tech-stack";
 import { socialLinks } from "./constants/social-links";
 import { navItems } from "./constants/navlist";
 import MobileSidebar from "./components/mobile-sidebar";
+import { Tooltip } from "@mantine/core";
 
 const mulish = Mulish({ subsets: ["latin"] });
 
@@ -22,7 +23,13 @@ export default function Home() {
       <nav className="flex fixed z-10 w-full top-0 items-center shadow-sm px-10 py-[25px] bg-white text-primary justify-between">
         <h3 className="font-bold text-[20px] text-tunes-heading cursor-pointer">
           <a href="#home">
-            <Image src="/logo.svg" width={83} height={23} className="w-[96px] h-[23px]" alt="logo" />
+            <Image
+              src="/logo.svg"
+              width={83}
+              height={23}
+              className="w-[96px] h-[23px]"
+              alt="logo"
+            />
           </a>
         </h3>
         <ul className="flex max-[520px]:hidden items-center gap-[2rem]">
@@ -112,19 +119,14 @@ export default function Home() {
               <p
                 className={`text-primary text-justify text-tunes-paragraph font-medium leading-[1.5] ${mulish.className}`}
               >
-                With over 2 to 3 years of experience as a Front-End React
-                Developer, I specialize in creating stunning, interactive, and
-                responsive web applications. My skill set encompasses HTML, CSS,
-                JavaScript, TypeScript, React, NextJs, MaterialUI, Mantine,
-                Tailwind, and SCSS, enabling me to design and develop intricate
-                and visually appealing solutions. I excel in crafting dynamic
-                interfaces that not only meet but exceed the complexity
-                requirements of each project. By writing clean and optimized
-                code and leveraging cutting-edge development tools, I bring to
-                life web applications that are both functionally robust and
-                aesthetically pleasing. Moreover, my experience extends to
-                leadership, where I&apos;ve successfully guided teams in
-                achieving excellence in collaborative endeavors.
+                With over 5 years of experience as a dedicated Frontend
+                Engineer, I excel in crafting dynamic web applications using
+                TypeScript, React, and NextJs. My comprehensive understanding of
+                backend technologies like NodeJs, Express, and NestJS enables me
+                to create more efficient and well-integrated frontend solutions.
+                I leverage my full-stack knowledge to build seamless,
+                high-performing applications that offer a robust user
+                experience.
               </p>
             </div>
           </div>
@@ -162,6 +164,13 @@ export default function Home() {
                   <div className="flex w-full flex-col gap-5">
                     <h3 className="flex items-center gap-[0.2rem] font-bold text-tunes-heading text-primary">
                       {item.name}
+                      {item.info && (
+                        <Tooltip label={item.info}>
+                          <span className="cursor-pointer hover:text-tunes-link">
+                            <MdInfoOutline />
+                          </span>
+                        </Tooltip>
+                      )}
                     </h3>
                     <p className="text-tunes-paragraph text-justify font-medium text-primary">
                       {item.description}
@@ -186,9 +195,7 @@ export default function Home() {
         <div className="app-container flex gap-[6rem] flex-col">
           <div className="flex flex-col gap-[1rem]">
             <h3 className="section-heading">CONTACT</h3>
-            <p className="section-subheading">
-              Don&apos;t be shy! Hit me up! 👇
-            </p>
+            <p className="section-subheading">Hit me up! 👇</p>
           </div>
           <div className="flex items-center gap-[8rem] flex-wrap">
             <div className="flex items-center gap-[1.5rem]">
