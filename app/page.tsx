@@ -50,13 +50,13 @@ export default function Home() {
       >
         <section className="flex gap-[10rem] flex-col app-container">
           <div className="flex justify-between max-[835px]:pt-10 max-[835px]:flex-col-reverse items-center gap-4">
-            <div className="flex gap-6 max-w-[50rem] flex-col">
+            <div className="flex gap-6 max-w-[55rem] flex-col">
               <h1 className="text-hero leading-[1.2] font-bold">
-                Front-End React Developer 👋
+                Software Engineer 👋
               </h1>
               <h4 className="text-tunes-subheading font-medium text-primary leading-[1.6]">
-                Hi, I&apos;m Babatunde Adekunle. A passionate Front-end React
-                Developer based in Lagos, Nigeria. 📍
+                Hi, I&apos;m Babatunde Adekunle. A passionate Software Engineer
+                based in Lagos, Nigeria. 📍
               </h4>
               <div className="flex items-center gap-[1.3rem]">
                 {socialLinks.map(({ Icon, link }, idx) => (
@@ -112,19 +112,19 @@ export default function Home() {
             <div className="flex flex-col gap-[10px]">
               <h3 className="section-heading">ABOUT ME</h3>
               <h4 className="section-subheading">
-                Passionate Front-End Maestro
+                Passionate Software Engineer Maestro
                 <br />
                 <span>Thriving in Lagos, Nigeria 🌐</span>
               </h4>
               <p
                 className={`text-primary text-justify text-tunes-paragraph font-medium leading-[1.5] ${mulish.className}`}
               >
-                With over 5 years of experience as a dedicated Frontend
-                Engineer, I excel in crafting dynamic web applications using
-                TypeScript, React, and NextJs. My comprehensive understanding of
-                backend technologies like NodeJs, Express, and NestJS enables me
-                to create more efficient and well-integrated frontend solutions.
-                I leverage my full-stack knowledge to build seamless,
+                With over 5 years of experience as a dedicated Sofware Engineer,
+                I excel in crafting dynamic web applications using TypeScript,
+                React, and NextJs. My comprehensive understanding of backend
+                technologies like NodeJs, Express, and NestJS enables me to
+                create more efficient and well-integrated frontend solutions. I
+                leverage my full-stack knowledge to build seamless,
                 high-performing applications that offer a robust user
                 experience.
               </p>

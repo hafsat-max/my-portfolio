@@ -52,7 +52,6 @@ export const projects = [
   {
     image: "/hrms.jpeg",
     liveLink: "https://talentmanagement.africaexchange.com",
-    info: "Open on a large screen device, app is not responsive",
     codeLink: "",
     name: "AFEX Talent Management Portal",
     technologies: [
