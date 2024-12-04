@@ -1,13 +1,13 @@
 import { CiLinkedin } from "react-icons/ci";
-import { FiGithub } from "react-icons/fi";
+import { RiGithubLine } from "react-icons/ri";
 
 export const socialLinks = [
   {
     Icon: CiLinkedin,
-    link: "https://www.linkedin.com/in/adekunle-babatunde",
+    link: "https://www.linkedin.com/in/hafsah-busari/",
   },
-  // {
-  //   Icon: FiGithub,
-  //   link: "https://github.com/adeTunes",
-  // },
+  {
+    Icon: RiGithubLine,
+    link: "https://github.com/hafsat-max",
+  },
 ];

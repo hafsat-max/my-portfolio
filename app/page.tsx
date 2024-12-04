@@ -24,7 +24,7 @@ export default function Home() {
         <h3 className="font-bold text-[20px] text-tunes-heading cursor-pointer">
           <a href="#home">
             <Image
-              src="/logo.svg"
+              src="/hafs.png"
               width={83}
               height={23}
               className="w-[96px] h-[23px]"
@@ -55,7 +55,7 @@ export default function Home() {
                 Software Engineer 👋
               </h1>
               <h4 className="text-tunes-subheading font-medium text-primary leading-[1.6]">
-                Hi, I&apos;m Babatunde Adekunle. A passionate Software Engineer
+                Hi, I&apos;m Abiodun Busari. A passionate Software Engineer
                 based in Lagos, Nigeria. 📍
               </h4>
               <div className="flex items-center gap-[1.3rem]">
@@ -119,7 +119,7 @@ export default function Home() {
               <p
                 className={`text-primary text-justify text-tunes-paragraph font-medium leading-[1.5] ${mulish.className}`}
               >
-                With over 5 years of experience as a dedicated Sofware Engineer,
+                With over 3 years of experience as a dedicated Sofware Engineer,
                 I excel in crafting dynamic web applications using TypeScript,
                 React, and NextJs. My comprehensive understanding of backend
                 technologies like NodeJs, Express, and NestJS enables me to
@@ -220,12 +220,12 @@ export default function Home() {
                   Mail
                 </h3>
                 <a
-                  href="mailto:babatundeadebowale1998@gmail.com"
+                  href="mailto:abiodunabusari@gmail.com"
                   target="_blank"
                   className="text-tunes-paragraph hover:text-tunes-link text-primary"
                   style={{ wordBreak: "break-word" }}
                 >
-                  babatundeadebowale1998@gmail.com
+                  abiodunabusari@gmail.com
                 </a>
               </div>
             </div>
