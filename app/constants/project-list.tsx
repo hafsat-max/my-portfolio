@@ -30,6 +30,21 @@ export const projects = [
       "Propyrite is a platform designed to facilitate the management and acquisition of properties. It likely offers services for property listing, search, and transactions, targeting buyers, sellers, and real estate professionals. The platform may include features for viewing property details, tracking transactions, and simplifying the real estate buying or selling process, providing users with an efficient and user-friendly way to manage property deals.",
   },
   {
+    image: "/golf.png",
+    liveLink: "https://golf-new.vercel.app/",
+    codeLink: "",
+    name: "LOCAL LEGENDS",
+    technologies: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Mantine UI",
+      "WebSockets",
+    ],
+    description:
+      "The Local Legends Amateur Match Play was founded by a group of golf enthusiasts who wanted to create a fun and competitive golf tournament for amateur golfers in the area.",
+  },
+  {
     image: "/green-builders.png",
     liveLink: "https://www.greenbuilderslimited.com/",
     codeLink: "",
