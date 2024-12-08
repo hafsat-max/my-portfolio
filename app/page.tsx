@@ -56,7 +56,7 @@ export default function Home() {
               </h1>
               <h4 className="text-tunes-subheading font-medium text-primary leading-[1.6]">
                 Hi, I&apos;m Abiodun Busari. A passionate Software Engineer
-                based in Lagos, Nigeria. 📍
+                based in Ibadan, Nigeria. 📍
               </h4>
               <div className="flex items-center gap-[1.3rem]">
                 {socialLinks.map(({ Icon, link }, idx) => (
@@ -114,7 +114,7 @@ export default function Home() {
               <h4 className="section-subheading">
                 Passionate Software Engineer Maestro
                 <br />
-                <span>Thriving in Lagos, Nigeria 🌐</span>
+                <span>Thriving in Ibadan, Nigeria 🌐</span>
               </h4>
               <p
                 className={`text-primary text-justify text-tunes-paragraph font-medium leading-[1.5] ${mulish.className}`}
@@ -207,7 +207,7 @@ export default function Home() {
                   Location
                 </h3>
                 <p className="text-tunes-paragraph text-primary">
-                  Lagos, Nigeria
+                  Ibadan, Nigeria
                 </p>
               </div>
             </div>

@@ -15,18 +15,48 @@ export const projects = [
   //     "YCIYC offers a solution for setting up and launching tokens on the TON blockchain through a Telegram bot. It facilitates the token creation and launch process, targeting users interested in leveraging TON's ecosystem for their projects. The platform provides a simple, streamlined experience for creating and managing tokens via Telegram integration, designed to support the setup of various token-related functionalities efficiently. It also provides a more detailed view of a specific Jetton token contract, showing real-time data using candle stick chart, transactions (swaps), token holders, ability to perform swap and check current rate",
   // },
   {
+    image: "/propyrite.png",
+    liveLink: "https://easy-find-homes.vercel.app/",
+    codeLink: "",
+    name: "Propyrite",
+    technologies: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Mantine UI",
+      "WebSockets",
+    ],
+    description:
+      "Propyrite is a platform designed to facilitate the management and acquisition of properties. It likely offers services for property listing, search, and transactions, targeting buyers, sellers, and real estate professionals. The platform may include features for viewing property details, tracking transactions, and simplifying the real estate buying or selling process, providing users with an efficient and user-friendly way to manage property deals.",
+  },
+  {
+    image: "/green-builders.png",
+    liveLink: "https://www.greenbuilderslimited.com/",
+    codeLink: "",
+    name: "Green Builders Limited",
+    technologies: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Mantine UI",
+      "WebSockets",
+    ],
+    description:
+      "Green Builders Limited is a leading and highly experienced construction company specializing in all aspects of residential, commercial, and industrial development.",
+  },
+  {
     image: "/tonnie.png",
     liveLink: "https://t.me/TonnieTrade_bot",
     codeLink: "",
     name: "Tonnie Coin",
     technologies: [
-      "NestJs",
+      // "NestJs",
       "React",
-      "MongoDB",
+      // "MongoDB",
       "Next.js",
-      "Mongoose",
-      "BullMQ",
-      "Cron",
+      // "Mongoose",
+      // "BullMQ",
+      // "Cron",
       "Tailwind CSS",
       "Mantine UI",
       "Bootstrap",
@@ -49,6 +79,7 @@ export const projects = [
     description:
       "YCIYC offers a solution for setting up and launching tokens on the TON blockchain through a Telegram bot. It facilitates the token creation and launch process, targeting users interested in leveraging TON's ecosystem for their projects. The platform provides a simple, streamlined experience for creating and managing tokens via Telegram integration, designed to support the setup of various token-related functionalities efficiently. It also provides a more detailed view of a specific Jetton token contract, showing real-time data using candle stick chart, transactions (swaps), token holders, ability to perform swap and check current rate",
   },
+
   {
     image: "/hrms.jpeg",
     liveLink: "https://talentmanagement.africaexchange.com",
@@ -98,54 +129,41 @@ export const projects = [
     description:
       "BMS (Budget Management System) is a finance tool tailored for organizational budget and expense management, BMS incorporates essential features such as organization structure management, staff onboarding, request creation, approval workflows, denial or escalation processes, approval limits, and real-time communication among request participants. The web app streamlines financial processes, offering an intuitive platform for effective budget management and expense tracking within organizations.",
   },
-  {
-    image: "/propyrite.png",
-    liveLink: "https://propyrite.com",
-    codeLink: "",
-    name: "Propyrite",
-    technologies: [
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-      "Mantine UI",
-      "WebSockets",
-    ],
-    description:
-      "Propyrite is a platform designed to facilitate the management and acquisition of properties. It likely offers services for property listing, search, and transactions, targeting buyers, sellers, and real estate professionals. The platform may include features for viewing property details, tracking transactions, and simplifying the real estate buying or selling process, providing users with an efficient and user-friendly way to manage property deals.",
-  },
-  {
-    image: "/mapx.jpeg",
-    liveLink: "https://mapx.vercel.app",
-    codeLink: "",
-    name: "MAPX",
-    technologies: [
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-      "Mantine UI",
-      "Highcharts",
-      "React Google Maps API",
-    ],
-    description:
-      "MAPX is a web application that serves the agricultural sector by providing a platform for organizations to efficiently manage and visualize their farmland data. Using Google Maps integration, it allows users to record and monitor the location and size of farmlands, distinguishing between actual farmlands and those within residential areas. The inclusion of Highcharts enables a global heatmap visualization of farmland locations, offering a comprehensive view of agricultural landscapes. MAPX streamlines the process of land management for agricultural organizations, enhancing their ability to make informed decisions.",
-  },
-  {
-    image: "/cgs.png",
-    liveLink: "https://cgs-admin.netlify.app/p",
-    codeLink: "",
-    name: "Commodity Grading System",
-    technologies: [
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-      "Mantine UI",
-      "Recharts",
-      "Chart.js",
-    ],
-    description:
-      "CGS is a reporting admin tool designed to complement a mobile application integrated with a machine learning model, CGS assesses the quality of agricultural commodities. Leveraging computer vision from the model and the mobile camera, it categorizes commodities into grades based on predetermined impurity measurements affecting quality. The web app then facilitates visual representation of analysis results through intuitive charts and tables, providing a comprehensive overview of commodity quality. CGS enhances efficiency in agricultural quality control and reporting.",
-    info: "Open on a large screen device, app is not responsive",
-  },
+ 
+  // {
+  //   image: "/mapx.jpeg",
+  //   liveLink: "https://mapx.vercel.app",
+  //   codeLink: "",
+  //   name: "MAPX",
+  //   technologies: [
+  //     "React",
+  //     "Next.js",
+  //     "Tailwind CSS",
+  //     "Mantine UI",
+  //     "Highcharts",
+  //     "React Google Maps API",
+  //   ],
+  //   description:
+  //     "MAPX is a web application that serves the agricultural sector by providing a platform for organizations to efficiently manage and visualize their farmland data. Using Google Maps integration, it allows users to record and monitor the location and size of farmlands, distinguishing between actual farmlands and those within residential areas. The inclusion of Highcharts enables a global heatmap visualization of farmland locations, offering a comprehensive view of agricultural landscapes. MAPX streamlines the process of land management for agricultural organizations, enhancing their ability to make informed decisions.",
+  // },
+  // {
+  //   image: "/cgs.png",
+  //   liveLink: "https://cgs-admin.netlify.app/p",
+  //   codeLink: "",
+  //   name: "Commodity Grading System",
+  //   technologies: [
+  //     "React",
+  //     "Next.js",
+  //     "Tailwind CSS",
+  //     "Mantine UI",
+  //     "Recharts",
+  //     "Chart.js",
+  //   ],
+  //   description:
+  //     "CGS is a reporting admin tool designed to complement a mobile application integrated with a machine learning model, CGS assesses the quality of agricultural commodities. Leveraging computer vision from the model and the mobile camera, it categorizes commodities into grades based on predetermined impurity measurements affecting quality. The web app then facilitates visual representation of analysis results through intuitive charts and tables, providing a comprehensive overview of commodity quality. CGS enhances efficiency in agricultural quality control and reporting.",
+  //   info: "Open on a large screen device, app is not responsive",
+  // },
+
   // {
   //   image: "/ticketing.png",
   //   liveLink: "https://afex-tickets.vercel.app/",
@@ -233,16 +251,16 @@ export const projects = [
   //   ],
   //   description: "Version 2 of the duduzili application.",
   // },
-  {
-    image: "/uacs.png",
-    liveLink: "https://uacs.africaexchange.com",
-    codeLink: "",
-    name: "Unified Access Control System for AFEX",
-    technologies: ["React", "Next.js", "Tailwind CSS", "Mantine UI"],
-    description:
-      "The AFEX UACS web application was built to manage applications that are authorised on the AFEX SSO system and also manage staff access (grant or revoke access to internal systems) to these applications",
-    info: "Open on a large screen device, app is not responsive",
-  },
+  // {
+  //   image: "/uacs.png",
+  //   liveLink: "https://uacs.africaexchange.com",
+  //   codeLink: "",
+  //   name: "Unified Access Control System for AFEX",
+  //   technologies: ["React", "Next.js", "Tailwind CSS", "Mantine UI"],
+  //   description:
+  //     "The AFEX UACS web application was built to manage applications that are authorised on the AFEX SSO system and also manage staff access (grant or revoke access to internal systems) to these applications",
+  //   info: "Open on a large screen device, app is not responsive",
+  // },
   // {
   //   image: "/xdp.png",
   //   liveLink: "https://xdp.africaexchange.com",
