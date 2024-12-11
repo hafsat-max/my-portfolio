@@ -79,21 +79,21 @@ export const projects = [
     description:
       "Tonnie is a gamified Play-to-Earn platform designed to make earning rewards fun and engaging. Trade, play, and refer friends, and a TON based investment feature to unlock progressively higher returns and rewards.",
   },
-  {
-    image: "/yciyc.jpeg",
-    liveLink: "https://yciyc.com",
-    codeLink: "",
-    name: "YCIYC",
-    technologies: [
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-      "Mantine UI",
-      "Bootstrap",
-    ],
-    description:
-      "YCIYC offers a solution for setting up and launching tokens on the TON blockchain through a Telegram bot. It facilitates the token creation and launch process, targeting users interested in leveraging TON's ecosystem for their projects. The platform provides a simple, streamlined experience for creating and managing tokens via Telegram integration, designed to support the setup of various token-related functionalities efficiently. It also provides a more detailed view of a specific Jetton token contract, showing real-time data using candle stick chart, transactions (swaps), token holders, ability to perform swap and check current rate",
-  },
+  // {
+  //   image: "/yciyc.jpeg",
+  //   liveLink: "https://yciyc.com",
+  //   codeLink: "",
+  //   name: "YCIYC",
+  //   technologies: [
+  //     "React",
+  //     "Next.js",
+  //     "Tailwind CSS",
+  //     "Mantine UI",
+  //     "Bootstrap",
+  //   ],
+  //   description:
+  //     "YCIYC offers a solution for setting up and launching tokens on the TON blockchain through a Telegram bot. It facilitates the token creation and launch process, targeting users interested in leveraging TON's ecosystem for their projects. The platform provides a simple, streamlined experience for creating and managing tokens via Telegram integration, designed to support the setup of various token-related functionalities efficiently. It also provides a more detailed view of a specific Jetton token contract, showing real-time data using candle stick chart, transactions (swaps), token holders, ability to perform swap and check current rate",
+  // },
 
   {
     image: "/hrms.jpeg",
