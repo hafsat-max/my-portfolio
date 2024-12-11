@@ -121,12 +121,11 @@ export default function Home() {
               >
                 With over 3 years of experience as a dedicated Sofware Engineer,
                 I excel in crafting dynamic web applications using TypeScript,
-                React, and NextJs. My comprehensive understanding of backend
-                technologies like NodeJs, Express, and NestJS enables me to
-                create more efficient and well-integrated frontend solutions. I
-                leverage my full-stack knowledge to build seamless,
-                high-performing applications that offer a robust user
-                experience.
+                React, and NextJs. My comprehensive understanding of these
+                technologies enables me to create more efficient and
+                well-integrated frontend solutions. I leverage my knowledge to
+                build seamless, high-performing applications that offer a robust
+                user experience.
               </p>
             </div>
           </div>
