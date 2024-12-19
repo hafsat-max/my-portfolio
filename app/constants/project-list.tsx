@@ -145,22 +145,22 @@ export const projects = [
       "BMS (Budget Management System) is a finance tool tailored for organizational budget and expense management, BMS incorporates essential features such as organization structure management, staff onboarding, request creation, approval workflows, denial or escalation processes, approval limits, and real-time communication among request participants. The web app streamlines financial processes, offering an intuitive platform for effective budget management and expense tracking within organizations.",
   },
  
-  // {
-  //   image: "/mapx.jpeg",
-  //   liveLink: "https://mapx.vercel.app",
-  //   codeLink: "",
-  //   name: "MAPX",
-  //   technologies: [
-  //     "React",
-  //     "Next.js",
-  //     "Tailwind CSS",
-  //     "Mantine UI",
-  //     "Highcharts",
-  //     "React Google Maps API",
-  //   ],
-  //   description:
-  //     "MAPX is a web application that serves the agricultural sector by providing a platform for organizations to efficiently manage and visualize their farmland data. Using Google Maps integration, it allows users to record and monitor the location and size of farmlands, distinguishing between actual farmlands and those within residential areas. The inclusion of Highcharts enables a global heatmap visualization of farmland locations, offering a comprehensive view of agricultural landscapes. MAPX streamlines the process of land management for agricultural organizations, enhancing their ability to make informed decisions.",
-  // },
+  {
+    image: "/mapx.jpeg",
+    liveLink: "https://mapx.vercel.app",
+    codeLink: "",
+    name: "MAPX",
+    technologies: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Mantine UI",
+      "Highcharts",
+      "React Google Maps API",
+    ],
+    description:
+      "MAPX is a web application that serves the agricultural sector by providing a platform for organizations to efficiently manage and visualize their farmland data. Using Google Maps integration, it allows users to record and monitor the location and size of farmlands, distinguishing between actual farmlands and those within residential areas. The inclusion of Highcharts enables a global heatmap visualization of farmland locations, offering a comprehensive view of agricultural landscapes. MAPX streamlines the process of land management for agricultural organizations, enhancing their ability to make informed decisions.",
+  },
   // {
   //   image: "/cgs.png",
   //   liveLink: "https://cgs-admin.netlify.app/p",
