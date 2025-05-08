@@ -1,19 +1,30 @@
 export const projects = [
   {
-    image: "/yciyc.jpeg",
-    liveLink: "https://yciyc.com",
-    codeLink: "",
-    name: "YCIYC",
-    technologies: [
-      "React",
-      "Next.js",
-      "Tailwind CSS",
-      "Mantine UI",
-      "Bootstrap",
-    ],
+    image: "/tonadobot.webp",
+    liveLink: "https://www.tonadobot.com/",
+    name: "Tonado",
+    technologies: ["React", "Next.js", "Tailwind CSS", "Mantine UI"],
     description:
-      "YCIYC offers a solution for setting up and launching tokens on the TON blockchain through a Telegram bot. It facilitates the token creation and launch process, targeting users interested in leveraging TON's ecosystem for their projects. The platform provides a simple, streamlined experience for creating and managing tokens via Telegram integration, designed to support the setup of various token-related functionalities efficiently. It also provides a more detailed view of a specific Jetton token contract, showing real-time data using candle stick chart, transactions (swaps), token holders, ability to perform swap and check current rate",
+      "Landing Page for the Tonado Telgram bot - Trade and manage your crypto assets directly within Telegram",
   },
+
+  {
+    image: "/arcfusion.webp",
+    liveLink: "https://www.arckfusion.com/",
+    codeLink: "",
+    name: "",
+    technologies: ["React", "Next.js", "Tailwind CSS", "Mantine UI"],
+    description:
+      "Arc & K Fusion is an e-commerce platform focusing primarily on the sales of watches and other wears",
+  },
+  // {
+  //   image: "",
+  //   liveLink: "",
+  //   codeLink: "",
+  //   name: "",
+  //   technologies: [""],
+  //   description: "",
+  // },
   {
     image: "/propyrite.png",
     liveLink: "https://easy-find-homes.vercel.app/",

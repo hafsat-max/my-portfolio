@@ -12,9 +12,9 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title:
-    "Abiodun Busari - Front-end React Developer based in Ibadan, Nigeria. 📍",
+    "Abiodun Busari - Front-end React Developer based in Munich, Germany. 📍",
   description:
-    "A passionate Front-end React Developer based in Ibadan, Nigeria. 📍",
+    "A passionate Front-end React Developer based in Munich, Germany. 📍",
   keywords: [
     "Software Developer",
     "Javascript",

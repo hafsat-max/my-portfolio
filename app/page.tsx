@@ -50,8 +50,7 @@ export default function Home() {
                 Software Engineer 👋
               </h1>
               <h4 className="text-tunes-subheading font-medium text-primary leading-[1.6]">
-                Hi, I&apos;m Abiodun Busari. A passionate Software Engineer
-                based in Ibadan, Nigeria. 📍
+                Munich, Germany. 📍
               </h4>
               <div className="flex items-center gap-[1.3rem]">
                 {socialLinks.map(({ Icon, link }, idx) => (
@@ -106,21 +105,18 @@ export default function Home() {
           <div className="flex-1 flex flex-col gap-5">
             <div className="flex flex-col gap-[10px]">
               <h3 className="section-heading">ABOUT ME</h3>
-              <h4 className="section-subheading">
-                Passionate Software Engineer Maestro
+              {/* <h4 className="section-subheading">
+                Highly analytical and solution-oriented frontend web developer
+                with extensive experience in frontend development
                 <br />
-                <span>Thriving in Ibadan, Nigeria 🌐</span>
-              </h4>
+              </h4> */}
               <p
                 className={`text-primary text-justify text-tunes-paragraph font-medium leading-[1.5] ${mulish.className}`}
               >
-                With over 3 years of experience as a dedicated Sofware Engineer,
-                I excel in crafting dynamic web applications using TypeScript,
-                React, and NextJs. My comprehensive understanding of these
-                technologies enables me to create more efficient and
-                well-integrated frontend solutions. I leverage my knowledge to
-                build seamless, high-performing applications that offer a robust
-                user experience.
+                Highly analytical and solution-oriented software developer with
+                extensive experience in frontend development. I leverage my
+                knowledge to build seamless, high-performing applications that
+                offer a robust user experience.
               </p>
             </div>
           </div>
@@ -145,7 +141,7 @@ export default function Home() {
                     <Image
                       src={item.image}
                       width={530}
-                      height={3000}
+                      height={300}
                       alt="project"
                       className="h-auto w-full"
                       style={{
