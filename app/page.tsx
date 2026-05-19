@@ -197,7 +197,7 @@ export default function Home() {
                   Location
                 </h3>
                 <p className="text-tunes-paragraph text-primary">
-                  Ibadan, Nigeria
+                  Munich, Germany
                 </p>
               </div>
             </div>
